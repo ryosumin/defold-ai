@@ -39,6 +39,6 @@ def build_server() -> FastMCP:
     resource.register(mcp, client)
     filesystem.register(mcp, client)
     input_binding.register(mcp, client)
-    project.register(mcp, client)
+    # project.register(mcp, client)
     camera.register(mcp, client)
     return mcp
